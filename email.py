@@ -12,7 +12,7 @@ sender_email = os.getenv("EMAIL_HOST_USER")
 password = os.getenv("EMAIL_HOST_PASSWORD")
 path_to_file = 'python.txt'
 
-receiver_email = 'nika@mziuri.ge'
+receiver_email = 'sababarnovi@gmail.com'
 
 message = MIMEMultipart() 
 message['Subject'] = 'homework'
