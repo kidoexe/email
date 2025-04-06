@@ -15,11 +15,11 @@ path_to_file = 'python.txt'
 receiver_email = 'nika@mziuri.ge'
 
 message = MIMEMultipart() 
-message['Subject'] = 'tatotask21'
+message['Subject'] = 'homework'
 message['From'] = sender_email
 message['To'] = receiver_email
 
-message.attach(MIMEText("Hello Nika, this is a test mail with an attachment!", 'plain'))
+message.attach(MIMEText("fuck niggers", 'aboba'))
 
 with open(path_to_file, 'rb') as file:
     part = MIMEApplication(file.read(), Name='python.txt')
